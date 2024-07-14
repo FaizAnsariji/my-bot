@@ -1,9 +1,10 @@
+
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "jaanbot",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "PREM BABU",
+  credits: "FAIZ ANSARI",
   description: "all reply",
   commandCategory: "Noprefix",
   usages: "noprefix",
@@ -56,16 +57,16 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("🥳🥳🥳🥳🥳", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Ludo khele") || (event.body.toLowerCase() == "LUDO  link do") || (event.body.toLowerCase() == "Koi ludo khelega kya") || (event.body.toLowerCase() == "ludo link")) {
+  if ((event.body.toLowerCase() == "Lodo khele") || (event.body.toLowerCase() == "LUDO  link do") || (event.body.toLowerCase() == "ludo khele") || (event.body.toLowerCase() == "ludo ka link")) {
      return api.sendMessage("मुझे लूडो खेलना नही आता 🥺👈", threadID);
    };
 
   if ((event.body.toLowerCase() == "kya hua") || (event.body.toLowerCase() == "kiya hua") || (event.body.toLowerCase() == "tya hua") || (event.body.toLowerCase() == "kiya hua")) {
      return api.sendMessage("कुछ नही बाबू 😒👈", threadID);
    };
-  
+
    mess = "{name}"
-  
+
   if (event.body.indexOf("ARMAN") == 0 || (event.body.indexOf("bot") == 0)) {
     var msg = {
       body: `✧════•❁${name}❁•════✧\n\n ${rand} \n\n                       ◦•●◉✿फैज अंसारी✿◉●•◦`
