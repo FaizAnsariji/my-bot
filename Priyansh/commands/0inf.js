@@ -1,13 +1,13 @@
 module.exports.config = {
-	name: "inf",
-	version: "1.0.1", 
-	hasPermssion: 0,
-	credits:"PREM" ,
-	description: "Admin and Bot info.",
-	commandCategory: "...",
-	cooldowns: 1,
-	dependencies: 
-	{
+  name: "inf",
+  version: "1.0.1", 
+  hasPermssion: 0,
+  credits:"FAIZ" ,
+  description: "Admin and Bot info.",
+  commandCategory: "...",
+  cooldowns: 1,
+  dependencies: 
+  {
     "request":"",
     "fs-extra":"",
     "axios":""
@@ -18,9 +18,9 @@ const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
 const time = process.uptime(),
-		hours = Math.floor(time / (60 * 60)),
-		minutes = Math.floor((time % (60 * 60)) / 60),
-		seconds = Math.floor(time % 60);
+    hours = Math.floor(time / (60 * 60)),
+    minutes = Math.floor((time % (60 * 60)) / 60),
+    seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
@@ -31,7 +31,7 @@ var callback = () => api.sendMessage({body:`🌹𝐀𝐃𝐌𝐈𝐍 𝐀𝐍�
 
 🔥Bot Admin🔥 ☞︎︎︎𝙵𝚊𝚒𝚣✰𝙰𝚗𝚜𝚊𝚛𝚒☜︎︎︎ 
 
-🙈Bot Admin Owner Facebook id link🙈 https://www.facebook.com/profile.php?id=100029323637418&mibextid=ZbWKwL💞🕊️
+🙈Bot Admin Owner Facebook id link🙈 https://www.facebook.com/profile.php?id=100077090468343&mibextid=ZbWKwL💞🕊️
 
 👋घास☘️की🌲झोपड़ी🌳कच्चा🏠मेरा मकान🏡 जयपुर का💒रहने वाला फैज🤸‍♂️👈मेरा😝 नाम😇
 
