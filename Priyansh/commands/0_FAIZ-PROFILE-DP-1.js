@@ -2,8 +2,8 @@ module.exports.config = {
   name: "dp",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "FAIZ ANSARI",
-  description: "THIS BOT IS MADE BY  FAIZ ANSARI",
+  credits: "PREM BABU",
+  description: "THIS BOT IS MADE BY PREM BABU",
   usePrefix: true,
   commandCategory: "PROFILE DP",
   usages: "SELF DP AND MENTION",
@@ -57,7 +57,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
 
   var background = [
 
-    "https://i.imgur.com/Ea6kJbs.jpeg"
+    "https://i.imgur.com/7hw5rEj.jpg"
 ];
   var rd = background[Math.floor(Math.random() * background.length)];
 
@@ -104,4 +104,4 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
     }
 
 
-//MADE BY FAIZ ANSARI 
+//MADE BY PREM BABU 
