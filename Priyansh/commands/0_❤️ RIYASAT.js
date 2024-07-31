@@ -15,7 +15,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   if (event.body.indexOf("@Riyasat Ali")==0 || event.body.indexOf("riyasat")==0 || event.body.indexOf("Riyasat")==0 || event.body.indexOf("Riyasat Ali")==0) {
     var msg = {
         body: "❤️𝐘𝐄 𝐃𝐄𝐊𝐇𝐎 𝐑𝐈𝐘𝐀𝐒𝐀𝐓 𝐉𝐈 𝐀 𝐆𝐘𝐄❤️",
-        attachment: fs.createReadStream(__dirname + `/FAIZ/riyasat.jpg`)
+        attachment: fs.createReadStream(__dirname + `/Cache/riyasat.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("❤️", event.messageID, (err) => {}, true)
